@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sujan M S | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Sujan M S, Full Stack Developer from Tiruppur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="glow" id="glow"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">SMS<span>.</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="btn small" href="mailto:sujanartsa1@gmail.com">Hire me</a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="mono tag">&gt; hello_world</p>
+  <h1>I'm <span class="grad">Sujan M S</span></h1>
+  <h2>I build <span id="type"></span><span class="caret">|</span></h2>
+  <p class="lead">Full Stack Developer from Tiruppur, turning ideas into fast, clean and useful web applications.</p>
+  <div class="cta">
+    <a class="btn" href="#projects">View my work</a>
+    <a class="btn ghost" href="#contact">Get in touch</a>
+  </div>
+  <div class="scroll mono">scroll ↓</div>
+</section>
+
+<section id="about" class="reveal">
+  <h3 class="title"><span class="mono">01</span> About me</h3>
+  <div class="about">
+    <div class="photo">
+      <img src="assets/photo.jpg" alt="Sujan M S" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <div class="initials">SMS</div>
+    </div>
+    <div>
+      <p>I'm Sujan, a B.Sc. Software Systems student at Kongu Engineering College, aiming for a career as a Full Stack Developer. I enjoy working across the stack, from designing responsive interfaces to building the server logic behind them.</p>
+      <p>Beyond code, I'm curious about cybersecurity and AI tools, create short-form video content, and play volleyball at state level, which taught me teamwork and discipline.</p>
+      <div class="facts">
+        <div><b>Location</b><span>Tiruppur, India</span></div>
+        <div><b>Role</b><span>Full Stack Developer</span></div>
+        <div><b>Languages</b><span>Tamil, English, Japanese (beginner)</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h3 class="title"><span class="mono">02</span> Skills</h3>
+  <div class="grid skills">
+    <div class="card tilt"><h4>Frontend</h4><div class="chips"><i>HTML</i><i>CSS</i><i>JavaScript</i></div></div>
+    <div class="card tilt"><h4>Backend</h4><div class="chips"><i>Node.js</i><i>Java</i><i>Python</i></div></div>
+    <div class="card tilt"><h4>Core programming</h4><div class="chips"><i>C</i><i>Java</i><i>Python</i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h3 class="title"><span class="mono">03</span> Projects</h3>
+  <div class="grid projects">
+    <article class="card tilt"><span class="num mono">01</span><h4>Gym Management Website</h4><p>A web application for managing gym operations such as members and plans.</p><div class="chips"><i>HTML</i><i>CSS</i><i>JavaScript</i></div></article>
+    <article class="card tilt"><span class="num mono">02</span><h4>Git Secrets Leak Detector</h4><p>Scans repositories for leaked keys and credentials, using ML/LLM to reduce false positives.</p><div class="chips"><i>Python</i><i>Security</i><i>ML</i></div></article>
+    <article class="card tilt"><span class="num mono">03</span><h4>AI Video Bug Detector</h4><p>Detects visual glitches and artifacts in AI-generated video.</p><div class="chips"><i>Python</i><i>AI</i></div></article>
+    <article class="card tilt"><span class="num mono">04</span><h4>Digital Afterlife</h4><p>An evidence-grounded AI memory system built with Streamlit, ChromaDB and LlamaIndex.</p><div class="chips"><i>Python</i><i>RAG</i></div></article>
+  </div>
+  <p class="note mono">More on <a href="https://github.com/sujan1358" target="_blank" rel="noopener">github.com/sujan1358</a></p>
+</section>
+
+<section id="education" class="reveal">
+  <h3 class="title"><span class="mono">04</span> Education</h3>
+  <div class="timeline">
+    <div class="item"><span class="dot"></span><h4>B.Sc. Software Systems</h4><p class="mono">Kongu Engineering College</p><p>Building a strong base in programming, databases and software development.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h3 class="title"><span class="mono">05</span> Contact</h3>
+  <div class="contact">
+    <p class="big">Have an opportunity or an idea?<br><span class="grad">Let's talk.</span></p>
+    <div class="links">
+      <a href="mailto:sujanartsa1@gmail.com">✉ sujanartsa1@gmail.com</a>
+      <a href="tel:+916385839689">☎ +91 63858 39689</a>
+      <a href="https://github.com/sujan1358" target="_blank" rel="noopener">⌥ GitHub</a>
+      <a href="https://www.linkedin.com/in/sujan-suresh-41618826b" target="_blank" rel="noopener">in LinkedIn</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> Sujan M S · Tiruppur, India</footer>
+<script src="script.js"></script>
+</body>
+</html>
